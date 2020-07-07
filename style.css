@@ -1,0 +1,35 @@
+body{
+background-color:#c0c0c0  
+}
+textarea {
+  outline: 0px solid transparent;
+  resize: none;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: #cccccc;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  font-size:14px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+    background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+}
+
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+button:disabled{
+border: 2px solid lightgrey;
+background-color:lightgrey;
+color:white;
+pointer-events:none
+}
